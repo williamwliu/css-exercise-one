@@ -1,32 +1,30 @@
-body
+/*Type Selectors*/
+body{
   font-size: 14px;
 }
 
 nav {
-  background color: yellow;
+  background-color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
-
-
+}
 section {
   margin: 0 auto;
   width: 60%;
 }
-
 h1 {
   font-family: sans-serif;
   font-size: 2em;
 }
-
-.example, h3 {
-  padding-top: 30px;
-  text-align: center;
-}
-
 h3 {
   font-size: 1.3em;
+}
+/*Class Selectors*/
+.example, h3 { /*This mixes a class and type selector*/
+  padding-top: 30px;
+  text-align: center;
 }
 
 .element {
@@ -34,3 +32,11 @@ h3 {
   height: 100px;
   margin: 10px;
   width: 100%;
+}
+
+.element3 {
+  background-color: blue;
+  height: 100px;
+  margin: 10px;
+  width: 100%;
+}
